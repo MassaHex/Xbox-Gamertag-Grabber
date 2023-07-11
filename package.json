@@ -1,16 +1,19 @@
 {
-  "name": "xbox-profile-app",
+  "name": "Xbox Gamertag Grabber",
   "version": "1.0.0",
-  "description": "A Node.js app to retrieve Xbox profile data",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "axios": "^0.24.0",
-    "cheerio": "^1.0.0-rc.10"
-  },
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "MassaHex",
-  "license": "MIT"
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "node-fetch": "^3.2.6"
+  }
 }
